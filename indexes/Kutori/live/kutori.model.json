@@ -1,0 +1,48 @@
+{
+  "version": "Live2DViewerEX Config 1.0",
+  "model": "../../../models/Kutori/live/kutori.moc",
+  "textures": [
+    "../../../models/Kutori/live/textures/textures_00//texture.png"
+  ],
+  "layout": {
+    "center_x": 0.0,
+    "center_y": 0.0,
+    "width": 2.0
+  },
+  "motions": {
+    "tap": [
+      {
+        "file": "../../../models/Kutori/live/motions/tap1.mtn"
+      },
+      {
+        "file": "../../../models/Kutori/live/motions/tap2.mtn"
+      },
+      {
+        "file": "../../../models/Kutori/live/motions/tap3.mtn"
+      }
+    ],
+    "idle": [
+      {
+        "file": "../../../models/Kutori/live/motions/haru_idle_01.mtn"
+      },
+      {
+        "file": "../../../models/Kutori/live/motions/haru_idle_03.mtn"
+      }
+    ]
+  },
+  "expressions": [
+    {
+      "name": "f01.exp.json",
+      "file": "../../../indexes/Kutori/live/expressions/f01.exp.json"
+    },
+    {
+      "name": "f02.exp.json",
+      "file": "../../../indexes/Kutori/live/expressions/f02.exp.json"
+    },
+    {
+      "name": "f03.exp.json",
+      "file": "../../../indexes/Kutori/live/expressions/f03.exp.json"
+    }
+  ],
+  "physics": "../../../indexes/Kutori/live/physics.json"
+}
